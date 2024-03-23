@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar{
+    display: flex;
+    height: 12rem;
+    width: 100%;
+    background-color: #181D26;
+}
+
+.logo{
+    width: 70%;
+    margin: 1.25rem 1.25rem 0 0;
+}
+
+.logo img{
+    border-radius: 50% 50%;
+    margin-left: 1.25rem;
+}
+
+.navBar ul{
+    display: flex;
+    gap: 1.4375rem;
+    margin-right: 4.5rem;
+    margin-top: 2.25rem;
+}
+
+
+.navBar ul li{
+    list-style-type: none;
+}
+
+.navBar ul li a{
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.pagPrincipal{
+    display: flex;
+    background-color: #5D878C;
+    flex-direction: column;
+}
+/* INDEX */
+.pagPrincipal h1{
+    display: flex;
+    color: #F6F6F6;
+    background-color: #181D26;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 3.100rem;
+    height: 7.25rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenDescripcion{
+    display: flex;
+    background-size: contain;
+    height: 18.75rem;
+    padding: 1.875rem;
+    margin: 3.125rem;
+    background-color: #345259;
+    gap: 2.5rem;
+}
+
+.imagenDescripcion p{
+    display: flex;
+    color: #F6F6F6;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+}
+
+/* PROGRESO */
+
+.pagProgreso{
+    display: flex;
+    background-color: #5D878C;
+}
+
+.pagProgreso section{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+/* NOSOTROS*/
+.pagNosotros{
+    background-color: #5D878C;
+    display: flex;
+}
+
+.pagNosotros section{
+    display: flex;
+    background-color: #345259;
+    margin: 3.125rem;
+    padding: 1.875rem;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.pagNosotros section p{
+    text-align: center;
+    color: #F6F6F6;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+/* FAQ */
+
+.pagFaq{
+    background-color: #5D878C;
+}
+
+.pagFaq section{
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+}
+
+.textos{
+    display: flex;
+    gap: 2.5rem;
+    margin: 2.5rem;
+    background-color: #345259;
+    height: 6.25rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.textos p{
+    text-align: center;
+    color: #F6F6F6;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+/* PELICULA */
+
+.pagPelicula{
+    background-color: #5D878C ;
+    display: flex;
+    justify-content: center;
+}
+
+.pagPelicula section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3.125rem;
+    background-color: #345259;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    gap: 1.875rem;
+}
+
+.pagPelicula section p{
+    color: #F6F6F6;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+}
+
+.footer{
+    display: flex;
+    background-color: #181D26;
+    height: 8rem;
+    align-items: center;
+}
+
+.footer div{
+    width: 40%;
+}
+.marca{
+    color: #F6F6F6;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    margin-left: 1.25rem;
+}
+.logoS{
+    display: flex;
+    color: #F6F6F6;
+    gap: 2.4375rem;
+    justify-content: center;
+}
+
+.derechos{
+    display: flex;
+    color: #2F394B;
+    justify-content: flex-end;
+}
+
+.derechos p{
+    margin-right: 1.25rem;
+}
