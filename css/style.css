@@ -39,7 +39,70 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
+.navBar ul li a:hover{
+    text-decoration: underline;
+}
+@media (max-width: 1024px){
+    .navBar ul li a{
+        font-size: 13px;
+    }
+}
 
+
+@media (max-width: 768px){
+    .navBar ul li a{
+        font-size: 11px;
+    }
+
+    .logo img{
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 425px){
+    .navBar ul li a{
+        font-size: 10px;
+    }
+
+    
+    .logo img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .navBar{
+        flex-direction: column;
+        align-items: center;
+        height: 21.875rem;
+    }
+    .navBar ul{
+       flex-direction: column;
+       align-items: center;
+    }
+}
+
+@media (max-width: 375px){
+    .navBar ul li a{
+        font-size: 10px;
+    }
+
+    
+    .logo img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .navBar{
+        flex-direction: column;
+        align-items: center;
+        height: 21.875rem;
+    }
+    .navBar ul{
+       flex-direction: column;
+       align-items: center;
+    }
+}
 .pagPrincipal{
     display: flex;
     background-color: #5D878C;
@@ -75,6 +138,56 @@
     font-family: "Roboto", sans-serif;
     align-items: center;
 }
+
+@media (max-width: 1024px){
+    .pagPrincipal h1{
+        font-size: 2.5rem;
+    }
+    .imagenDescripcion img{
+        width: 75%;
+    }
+    .imagenDescripcion p{
+        font-size: .625rem;
+    }
+}
+
+@media (max-width: 768px){
+    .pagPrincipal h1{
+        font-size: 1.875rem;
+    }
+    .imagenDescripcion img{
+        width: 75%;
+    }
+    .imagenDescripcion p{
+        font-size: .625rem;
+    }
+}
+
+@media (max-width: 425px){
+    .pagPrincipal h1{
+        font-size: 1.625rem;
+    }
+
+    .imagenDescripcion{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagenDescripcion p{
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 375px){
+    .pagPrincipal h1{
+        font-size: 1.25rem;
+    }
+    
+    .imagenDescripcion p{
+        font-size: .625rem;
+    }
+}
+
 
 /* PROGRESO */
 
@@ -113,6 +226,25 @@
     font-family: "Roboto", sans-serif;
     font-weight: 500;
 }
+@media (max-width: 1024px){
+   
+}
+
+
+@media (max-width: 768px){
+    .pagNosotros section{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 425px){
+    
+}
+
+@media (max-width: 375px){
+   
+}
 
 /* FAQ */
 
@@ -121,9 +253,40 @@
 }
 
 .pagFaq section{
-    display: flex;
-    flex-direction: column;
-    gap: 3.125rem;
+    display: grid;
+    width: 100%;
+    height: 70vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "parrafo1 parrafo1 parrafo2 parrafo2"
+    "parrafo3 parrafo3 parrafo4 parrafo4"
+    "parrafo5 parrafo5 parrafo6 parrafo6"
+    ;
+}
+
+.parrafo1{
+    grid-area: parrafo1;
+}
+
+.parrafo2{
+    grid-area: parrafo2;
+}
+
+.parrafo3{
+    grid-area: parrafo3;
+}
+
+.parrafo4{
+    grid-area: parrafo4;
+}
+
+.parrafo5{
+    grid-area: parrafo5;
+}
+
+.parrafo6{
+    grid-area: parrafo6;
 }
 
 .textos{
@@ -136,9 +299,6 @@
     align-items: center;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-}
-
-.textos p{
     text-align: center;
     color: #F6F6F6;
     font-family: "Roboto", sans-serif;
@@ -173,6 +333,7 @@
     padding-right: 3.125rem;
 }
 
+
 .footer{
     display: flex;
     background-color: #181D26;
@@ -204,4 +365,60 @@
 
 .derechos p{
     margin-right: 1.25rem;
+}
+
+@media (max-width: 768px){
+    .logoS{
+        gap: 1.6875rem;
+    }
+
+    .logoS img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .marca{
+        font-size: .8125rem;
+    }
+
+    .derechos p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 425px){
+    .logoS{
+        gap: 1.25rem;
+    }
+    .logoS img{
+        width: 20px;
+        height: 20px;
+    }
+    .marca{
+        font-size: .625rem;
+    }
+
+    .derechos p{
+        font-size: .625rem;
+    }
+}
+
+@media (max-width: 320px){
+    .logoS{
+        gap: .625rem;
+    }
+
+    .logoS img{
+        width: 15px;
+        height: 15px;
+    }
+
+    .marca{
+        font-size: 9px;
+        font-weight: 800;
+    }
+
+    .derechos p{
+        font-size: 7px;
+    }
 }
