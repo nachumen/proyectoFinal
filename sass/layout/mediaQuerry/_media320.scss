@@ -1,0 +1,74 @@
+/* Header */
+@media (max-width: 320px){
+    header {
+            flex-direction: column;
+            align-items: center;
+            height: 21.875rem;
+        div{
+            img{
+                width: 60px;
+                height: 60px;
+            }
+        }
+        ul{
+            flex-direction: column;
+            align-items: center;
+            li{
+                a{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+/* Index */
+
+@media (max-width: 320px){
+    .pagPrincipal{
+        h1{
+        font-size: 1.25rem;
+        }
+        section{
+            p{
+                font-size: .625rem;
+            }
+        }
+    }
+}
+
+/* PELICULA */
+
+@media (max-width: 320px) {
+    .pagPelicula{
+        section{
+            iframe{
+                max-width: 60%;
+                max-height: 35%;
+            }
+        }
+    }
+}
+
+
+/* Footer */
+
+@media (max-width: 320px){
+    .logoS{
+        gap: .625rem;
+    }
+
+    .logoS img{
+        width: 15px;
+        height: 15px;
+    }
+
+    .marca{
+        font-size: 9px;
+        font-weight: 800;
+    }
+
+    .derechos p{
+        font-size: 7px;
+    }
+}

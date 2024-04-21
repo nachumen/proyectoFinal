@@ -1,0 +1,23 @@
+.pagPelicula{
+    background-color: map-get($colores, fondo );
+    display: flex;
+    justify-content: center;
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 3.125rem;
+        background-color: map-get($colores, fondo2 );
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        gap: 1.875rem;
+        p{
+            color: $colorFuente;
+            font-family: $tipoFuente;
+            font-weight: 500;
+            text-align: center;
+            padding-left: 3.125rem;
+            padding-right: 3.125rem;
+        }
+    }
+}

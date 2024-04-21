@@ -1,0 +1,31 @@
+/* Header */
+
+@media (max-width: 1024px){
+    header{
+        ul{
+            li{
+                a{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+/* Index */
+
+@media (max-width: 1024px){
+    .pagPrincipal{
+        h1{
+        font-size: 2.5rem;
+        }
+        section{
+            img{
+                width: 75%;
+            }
+            p{
+                font-size: .625rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.pagPrincipal{
+    display: flex;
+    background-color: #5D878C;
+    flex-direction: column;
+    h1{
+        @include flex;
+        color: $colorFuente;
+        background-color: map-get($colores, navFoot );
+        font-family: $tipoFuente;
+        font-weight: 900;
+        font-size: 3.100rem;
+        height: 7.25rem;
+        width: 100%;
+    }
+    section{
+        display: flex;
+        background-size: contain;
+        height: 18.75rem;
+        padding: 1.875rem;
+        margin: 3.125rem;
+        background-color: map-get($colores, fondo2 );
+        gap: 2.5rem;
+        p{
+            display: flex;
+            color: $colorFuente;
+            font-family: $tipoFuente;
+            align-items: center;
+        }
+    }
+}

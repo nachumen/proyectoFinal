@@ -1,0 +1,21 @@
+@import "./utilities/maps";
+@import "./utilities/variables";
+@import "./utilities/mixin";
+
+@import "./base/reset";
+@import "./utilities/mixin";
+
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/main-index";
+@import "./layout/main-nosotros";
+@import "./layout/main-pelicula";
+@import "./layout/main-progreso";
+@import "./layout/main-faq";
+
+@import "./layout/mediaQuerry/media320";
+@import "./layout/mediaQuerry/media425";
+@import "./layout/mediaQuerry/media768";
+@import "./layout/mediaQuerry/media1024";
+
+

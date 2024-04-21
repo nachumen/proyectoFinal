@@ -1,0 +1,52 @@
+.pagFaq{
+    background-color: map-get($colores, fondo );
+    section{
+        display: grid;
+        width: 100%;
+        height: 70vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "parrafo1 parrafo1 parrafo2 parrafo2"
+        "parrafo3 parrafo3 parrafo4 parrafo4"
+        "parrafo5 parrafo5 parrafo6 parrafo6"
+        ;
+    }
+    .textos{
+        @include flex;
+        gap: 2.5rem;
+        margin: 2.5rem;
+        background-color: #345259;
+        height: 6.25rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        text-align: center;
+        color: $colorFuente;
+        font-family: $tipoFuente;
+        font-weight: 500;
+    }
+}
+
+.parrafo1{
+    grid-area: parrafo1;
+}
+
+.parrafo2{
+    grid-area: parrafo2;
+}
+
+.parrafo3{
+    grid-area: parrafo3;
+}
+
+.parrafo4{
+    grid-area: parrafo4;
+}
+
+.parrafo5{
+    grid-area: parrafo5;
+}
+
+.parrafo6{
+    grid-area: parrafo6;
+}
