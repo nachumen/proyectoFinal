@@ -15,7 +15,7 @@
     section{
         display: flex;
         background-size: contain;
-        height: 18.75rem;
+        height: 43.75rem;
         padding: 1.875rem;
         margin: 3.125rem;
         background-color: map-get($colores, fondo2 );
@@ -25,6 +25,10 @@
             color: $colorFuente;
             font-family: $tipoFuente;
             align-items: center;
+            font-size: 20px;
         }
+    }
+    .carousel-item{
+        image-resolution: 2319 1305;
     }
 }

@@ -30,12 +30,49 @@
         font-size: 1.25rem;
         }
         section{
+            height: 27rem;
             p{
                 font-size: .625rem;
             }
         }
+        #carouselExampleIndicators{
+            height: 9.375rem;
+        }
     }
 }
+
+/* PROGRESO */
+@media (max-width: 320px) {
+    .pagProgreso{
+        section{
+            justify-content: center;
+            align-items: center;
+            margin: 2.5rem;
+            iframe{
+                max-width: 60%;
+                max-height: 35%;
+            }
+        }
+    }
+}
+
+
+/* FAQ */
+
+@media (max-width: 425px){
+    .pagFaq{
+        section{
+            height: 50vh;
+        }
+        .textos{
+            margin: 1.25rem;
+            height: auto;
+            width: 125px;
+            font-size: .625rem;
+        }
+    }
+}
+
 
 /* PELICULA */
 
@@ -55,7 +92,7 @@
 
 @media (max-width: 320px){
     .logoS{
-        gap: .625rem;
+        gap: .3125rem;
     }
 
     .logoS img{

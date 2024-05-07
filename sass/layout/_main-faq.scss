@@ -5,7 +5,7 @@
         width: 100%;
         height: 70vh;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(6, 1fr);
         grid-template-areas: 
         "parrafo1 parrafo1 parrafo2 parrafo2"
         "parrafo3 parrafo3 parrafo4 parrafo4"
@@ -17,9 +17,8 @@
         gap: 2.5rem;
         margin: 2.5rem;
         background-color: #345259;
-        height: 6.25rem;
-        padding-left: 1.25rem;
-        padding-right: 1.25rem;
+        height: auto;
+        padding: 1.25rem;
         text-align: center;
         color: $colorFuente;
         font-family: $tipoFuente;

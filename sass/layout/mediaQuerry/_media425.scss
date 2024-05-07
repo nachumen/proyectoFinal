@@ -39,6 +39,34 @@
     }
 }
 
+/* PROGRESO */
+@media (max-width: 425px) {
+    .pagProgreso{
+        section{
+            justify-content: center;
+            align-items: center;
+            margin: 2.5rem;
+            iframe{
+                max-width: 70%;
+                max-height: 50%;
+            }
+        }
+    }
+}
+
+/* FAQ */
+
+@media (max-width: 425px){
+    .pagFaq{
+        section{
+            height: 120vh;
+        }
+        .textos{
+            height: auto;
+        }
+    }
+}
+
 /* PELICULA */
 @media (max-width: 425px) {
     .pagPelicula{

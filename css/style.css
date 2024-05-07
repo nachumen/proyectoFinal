@@ -71,7 +71,7 @@ footer {
   .pagPrincipal section {
     display: flex;
     background-size: contain;
-    height: 18.75rem;
+    height: 43.75rem;
     padding: 1.875rem;
     margin: 3.125rem;
     background-color: #345259;
@@ -80,7 +80,10 @@ footer {
       display: flex;
       color: #F6F6F6;
       font-family: "Roboto", sans-serif;
-      align-items: center; }
+      align-items: center;
+      font-size: 20px; }
+  .pagPrincipal .carousel-item {
+    image-resolution: 2319 1305; }
 
 .pagNosotros {
   background-color: #5D878C;
@@ -137,7 +140,7 @@ footer {
     width: 100%;
     height: 70vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-template-areas: "parrafo1 parrafo1 parrafo2 parrafo2" "parrafo3 parrafo3 parrafo4 parrafo4" "parrafo5 parrafo5 parrafo6 parrafo6"; }
   .pagFaq .textos {
     display: flex;
@@ -146,9 +149,8 @@ footer {
     gap: 2.5rem;
     margin: 2.5rem;
     background-color: #345259;
-    height: 6.25rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    height: auto;
+    padding: 1.25rem;
     text-align: center;
     color: #F6F6F6;
     font-family: "Roboto", sans-serif;
@@ -191,7 +193,31 @@ footer {
 @media (max-width: 320px) {
   .pagPrincipal h1 {
     font-size: 1.25rem; }
-  .pagPrincipal section p {
+  .pagPrincipal section {
+    height: 27rem; }
+    .pagPrincipal section p {
+      font-size: .625rem; }
+  .pagPrincipal #carouselExampleIndicators {
+    height: 9.375rem; } }
+
+/* PROGRESO */
+@media (max-width: 320px) {
+  .pagProgreso section {
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem; }
+    .pagProgreso section iframe {
+      max-width: 60%;
+      max-height: 35%; } }
+
+/* FAQ */
+@media (max-width: 425px) {
+  .pagFaq section {
+    height: 50vh; }
+  .pagFaq .textos {
+    margin: 1.25rem;
+    height: auto;
+    width: 125px;
     font-size: .625rem; } }
 
 /* PELICULA */
@@ -203,7 +229,7 @@ footer {
 /* Footer */
 @media (max-width: 320px) {
   .logoS {
-    gap: .625rem; }
+    gap: .3125rem; }
   .logoS img {
     width: 15px;
     height: 15px; }
@@ -237,6 +263,23 @@ footer {
     align-items: center; }
     .pagPrincipal section p {
       font-size: 9px; } }
+
+/* PROGRESO */
+@media (max-width: 425px) {
+  .pagProgreso section {
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem; }
+    .pagProgreso section iframe {
+      max-width: 70%;
+      max-height: 50%; } }
+
+/* FAQ */
+@media (max-width: 425px) {
+  .pagFaq section {
+    height: 120vh; }
+  .pagFaq .textos {
+    height: auto; } }
 
 /* PELICULA */
 @media (max-width: 425px) {
@@ -279,6 +322,11 @@ footer {
     flex-direction: column;
     align-items: center; } }
 
+/* FAQ */
+@media (max-width: 768px) {
+  .pagFaq .parrafo6 {
+    height: auto; } }
+
 /* PELICULA */
 @media (max-width: 768px) {
   .pagPelicula section iframe {
@@ -309,4 +357,4 @@ footer {
   .pagPrincipal section img {
     width: 75%; }
   .pagPrincipal section p {
-    font-size: .625rem; } }
+    font-size: .9375rem; } }
