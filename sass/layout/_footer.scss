@@ -23,6 +23,7 @@ footer{
         display: flex;
         color: map-get($colores, derechos );
         justify-content: flex-end;
+        font-family: $tipoFuente;
     }
     
     .derechos p{

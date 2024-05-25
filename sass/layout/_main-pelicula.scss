@@ -2,6 +2,7 @@
     background-color: map-get($colores, fondo );
     display: flex;
     justify-content: center;
+    height: 70vh;
     section{
         display: flex;
         flex-direction: column;
